@@ -257,7 +257,7 @@ $(".ui.dashboard .content").on(
       headers: headers,
       success: function(response) {
         $(".ui.dashboard .course.dimmer").removeClass("active");
-        $course.find(".download.button").addClass("disabled");
+        // $course.find(".download.button").addClass("disabled");
         $course.css("padding-bottom", "25px");
         $course.find(".ui.progress").show();
         var coursedata = [];
